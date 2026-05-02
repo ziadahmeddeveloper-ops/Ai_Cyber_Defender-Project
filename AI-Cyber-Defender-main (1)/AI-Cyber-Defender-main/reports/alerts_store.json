@@ -1,0 +1,3325 @@
+[
+  {
+    "generated_at": "2026-05-02T22:24:54.995400+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "49.182.116.10",
+    "username": null,
+    "event_time": "2026-05-02T22:24:54.995400Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "49.182.116.10",
+      "username": null,
+      "url": "2026-05-03 01:24:54 Web: SQL Injection attempt detected: GET /product.php?id=1' OR '1'='1' from 49.182.116.10",
+      "query": "id=1' OR '1'='1' from 49.182.116.10",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:54.997004+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "49.182.116.10",
+    "username": null,
+    "event_time": "2026-05-02T22:24:54.997004Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "49.182.116.10",
+      "username": null,
+      "url": "2026-05-03 01:24:54 Web: SQL Injection attempt detected: GET /product.php?id=1' OR '1'='1' from 49.182.116.10",
+      "query": "id=1' OR '1'='1' from 49.182.116.10",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:57.027592+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "Cross-Site Scripting (XSS)",
+    "attack_name": "Web Cross-Site Scripting (XSS)",
+    "source_ip": "125.119.21.138",
+    "username": null,
+    "event_time": "2026-05-02T22:24:57.027592Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "125.119.21.138",
+      "username": null,
+      "url": "2026-05-03 01:24:56 Web: XSS attempt detected: GET /search?q=<script>alert(1)</script> from 125.119.21.138",
+      "query": "q=<script>alert(1)</script> from 125.119.21.138",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:57.028625+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "Cross-Site Scripting (XSS)",
+    "attack_name": "Web Cross-Site Scripting (XSS)",
+    "source_ip": "125.119.21.138",
+    "username": null,
+    "event_time": "2026-05-02T22:24:57.028625Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "125.119.21.138",
+      "username": null,
+      "url": "2026-05-03 01:24:56 Web: XSS attempt detected: GET /search?q=<script>alert(1)</script> from 125.119.21.138",
+      "query": "q=<script>alert(1)</script> from 125.119.21.138",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:58.056730+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Developer_X",
+    "event_time": "2026-05-02T22:24:58.056730Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4672,
+      "task_category": "2026-05-03 01:24:57 EventID=4672 Special privileges assigned User=Developer_X",
+      "source_ip": null,
+      "username": "Developer_X"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:58.076893+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Developer_X",
+    "event_time": "2026-05-02T22:24:58.076893Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4672,
+      "task_category": "2026-05-03 01:24:57 EventID=4672 Special privileges assigned User=Developer_X",
+      "source_ip": null,
+      "username": "Developer_X"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:59.095717+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "15.152.223.98",
+    "username": null,
+    "event_time": "2026-05-02T22:24:59.095717Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "15.152.223.98",
+      "username": null,
+      "url": "2026-05-03 01:24:58 sshd: Connection from 15.152.223.98 port 40420",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:59.116977+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "15.152.223.98",
+    "username": null,
+    "event_time": "2026-05-02T22:24:59.116977Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "15.152.223.98",
+      "username": null,
+      "url": "2026-05-03 01:24:58 sshd: Connection from 15.152.223.98 port 40420",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:59.125752+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Youssef.",
+    "event_time": "2026-05-02T22:24:59.125752Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": "Youssef.",
+      "url": "2026-05-03 01:24:58 Cron: Job 'backup.sh' completed successfully for user Youssef.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:24:59.135563+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Youssef.",
+    "event_time": "2026-05-02T22:24:59.135563Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": "Youssef.",
+      "url": "2026-05-03 01:24:58 Cron: Job 'backup.sh' completed successfully for user Youssef.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:00.153119+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "255.143.221.255",
+    "username": "Developer_X",
+    "event_time": "2026-05-02T22:25:00.153119Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:00 EventID=4624 Login success User=Developer_X SRC=255.143.221.255",
+      "source_ip": "255.143.221.255",
+      "username": "Developer_X"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:00.168417+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "255.143.221.255",
+    "username": "Developer_X",
+    "event_time": "2026-05-02T22:25:00.168417Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:00 EventID=4624 Login success User=Developer_X SRC=255.143.221.255",
+      "source_ip": "255.143.221.255",
+      "username": "Developer_X"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:00.171156+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01.",
+    "event_time": "2026-05-02T22:25:00.171156Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": "Employee_01.",
+      "url": "2026-05-03 01:25:00 Cron: Job 'backup.sh' completed successfully for user Employee_01.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:00.177487+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01.",
+    "event_time": "2026-05-02T22:25:00.177487Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": "Employee_01.",
+      "url": "2026-05-03 01:25:00 Cron: Job 'backup.sh' completed successfully for user Employee_01.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:02.185768+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "111.184.20.233",
+    "username": null,
+    "event_time": "2026-05-02T22:25:02.185768Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "111.184.20.233",
+      "username": null,
+      "url": "2026-05-03 01:25:02 Apache - 111.184.20.233 - [GET /index.php HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:02.201011+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "111.184.20.233",
+    "username": null,
+    "event_time": "2026-05-02T22:25:02.201011Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "111.184.20.233",
+      "username": null,
+      "url": "2026-05-03 01:25:02 Apache - 111.184.20.233 - [GET /index.php HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:03.204794+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Administrator",
+    "event_time": "2026-05-02T22:25:03.204794Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 1102,
+      "task_category": "2026-05-03 01:25:03 EventID=1102 The audit log was cleared User=Administrator",
+      "source_ip": null,
+      "username": "Administrator"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:03.222493+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "SYSTEM",
+    "event_time": "2026-05-02T22:25:03.222493Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4688,
+      "task_category": "2026-05-03 01:25:03 EventID=4688 A new process has been created Process=mimikatz.exe User=SYSTEM",
+      "source_ip": null,
+      "username": "SYSTEM"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:03.229357+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Administrator",
+    "event_time": "2026-05-02T22:25:03.229357Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 1102,
+      "task_category": "2026-05-03 01:25:03 EventID=1102 The audit log was cleared User=Administrator",
+      "source_ip": null,
+      "username": "Administrator"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:03.248652+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "SYSTEM",
+    "event_time": "2026-05-02T22:25:03.248652Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4688,
+      "task_category": "2026-05-03 01:25:03 EventID=4688 A new process has been created Process=mimikatz.exe User=SYSTEM",
+      "source_ip": null,
+      "username": "SYSTEM"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:04.262446+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "186.28.163.65",
+    "username": null,
+    "event_time": "2026-05-02T22:25:04.262446Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "186.28.163.65",
+      "username": null,
+      "url": "2026-05-03 01:25:04 Nginx - 186.28.163.65 - [GET /assets/logo.png HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:04.268286+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "186.28.163.65",
+    "username": null,
+    "event_time": "2026-05-02T22:25:04.268286Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "186.28.163.65",
+      "username": null,
+      "url": "2026-05-03 01:25:04 Nginx - 186.28.163.65 - [GET /assets/logo.png HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:06.282702+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01",
+    "event_time": "2026-05-02T22:25:06.282702Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:06 EventID=4634 Logoff User=Employee_01",
+      "source_ip": null,
+      "username": "Employee_01"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:06.285772+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01",
+    "event_time": "2026-05-02T22:25:06.285772Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:06 EventID=4634 Logoff User=Employee_01",
+      "source_ip": null,
+      "username": "Employee_01"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:06.310459+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "92.205.37.226",
+    "username": null,
+    "event_time": "2026-05-02T22:25:06.310459Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "92.205.37.226",
+      "username": null,
+      "url": "2026-05-03 01:25:06 sshd: Accepted publickey for Developer_X from 92.205.37.226",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:06.314355+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "92.205.37.226",
+    "username": null,
+    "event_time": "2026-05-02T22:25:06.314355Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "92.205.37.226",
+      "username": null,
+      "url": "2026-05-03 01:25:06 sshd: Accepted publickey for Developer_X from 92.205.37.226",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:10.319917+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01",
+    "event_time": "2026-05-02T22:25:10.319917Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:10 EventID=4634 Logoff User=Employee_01",
+      "source_ip": null,
+      "username": "Employee_01"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:10.342802+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01",
+    "event_time": "2026-05-02T22:25:10.342802Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:10 EventID=4634 Logoff User=Employee_01",
+      "source_ip": null,
+      "username": "Employee_01"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:10.348585+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "186.72.89.239",
+    "username": null,
+    "event_time": "2026-05-02T22:25:10.348585Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "186.72.89.239",
+      "username": null,
+      "url": "2026-05-03 01:25:10 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 186.72.89.239",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:10.361803+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "186.72.89.239",
+    "username": null,
+    "event_time": "2026-05-02T22:25:10.361803Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "186.72.89.239",
+      "username": null,
+      "url": "2026-05-03 01:25:10 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 186.72.89.239",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:11.360834+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "6.240.194.2",
+    "username": null,
+    "event_time": "2026-05-02T22:25:11.360834Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "6.240.194.2",
+      "username": null,
+      "url": "2026-05-03 01:25:11 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 6.240.194.2",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:11.375863+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "6.240.194.2",
+    "username": null,
+    "event_time": "2026-05-02T22:25:11.375863Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "6.240.194.2",
+      "username": null,
+      "url": "2026-05-03 01:25:11 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 6.240.194.2",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:12.375510+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "account",
+    "event_time": "2026-05-02T22:25:12.375510Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4720,
+      "task_category": "2026-05-03 01:25:12 EventID=4720 A user account was created User=Backdoor_Admin",
+      "source_ip": null,
+      "username": "account"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:12.394566+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": null,
+    "event_time": "2026-05-02T22:25:12.394566Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": null,
+      "url": "2026-05-03 01:25:12 System: Service 'Windows Update' started successfully.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:12.407266+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "account",
+    "event_time": "2026-05-02T22:25:12.407266Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4720,
+      "task_category": "2026-05-03 01:25:12 EventID=4720 A user account was created User=Backdoor_Admin",
+      "source_ip": null,
+      "username": "account"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:12.423977+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": null,
+    "event_time": "2026-05-02T22:25:12.423977Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": null,
+      "url": "2026-05-03 01:25:12 System: Service 'Windows Update' started successfully.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:15.432914+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "251.71.111.180",
+    "username": null,
+    "event_time": "2026-05-02T22:25:15.432914Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "251.71.111.180",
+      "username": null,
+      "url": "2026-05-03 01:25:15 Apache - 251.71.111.180 - [GET /index.php HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:15.438641+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "251.71.111.180",
+    "username": null,
+    "event_time": "2026-05-02T22:25:15.438641Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "251.71.111.180",
+      "username": null,
+      "url": "2026-05-03 01:25:15 Apache - 251.71.111.180 - [GET /index.php HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:15.447453+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "John",
+    "event_time": "2026-05-02T22:25:15.447453Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4672,
+      "task_category": "2026-05-03 01:25:15 EventID=4672 Special privileges assigned User=John",
+      "source_ip": null,
+      "username": "John"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:15.464395+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "John",
+    "event_time": "2026-05-02T22:25:15.464395Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4672,
+      "task_category": "2026-05-03 01:25:15 EventID=4672 Special privileges assigned User=John",
+      "source_ip": null,
+      "username": "John"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:16.465825+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "57.225.65.100",
+    "username": null,
+    "event_time": "2026-05-02T22:25:16.465825Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "57.225.65.100",
+      "username": null,
+      "url": "2026-05-03 01:25:16 sshd: Connection from 57.225.65.100 port 55531",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:16.484542+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "57.225.65.100",
+    "username": null,
+    "event_time": "2026-05-02T22:25:16.484542Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "57.225.65.100",
+      "username": null,
+      "url": "2026-05-03 01:25:16 sshd: Connection from 57.225.65.100 port 55531",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:18.487196+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "System",
+    "event_time": "2026-05-02T22:25:18.487196Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:18 EventID=4634 Logoff User=System",
+      "source_ip": null,
+      "username": "System"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:18.504345+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "System",
+    "event_time": "2026-05-02T22:25:18.504345Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:18 EventID=4634 Logoff User=System",
+      "source_ip": null,
+      "username": "System"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:20.526800+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Administrator",
+    "event_time": "2026-05-02T22:25:20.526800Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 1102,
+      "task_category": "2026-05-03 01:25:20 EventID=1102 The audit log was cleared User=Administrator",
+      "source_ip": null,
+      "username": "Administrator"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:20.534555+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Administrator",
+    "event_time": "2026-05-02T22:25:20.534548Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 1102,
+      "task_category": "2026-05-03 01:25:20 EventID=1102 The audit log was cleared User=Administrator",
+      "source_ip": null,
+      "username": "Administrator"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:20.545644+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "18.74.60.128",
+    "username": null,
+    "event_time": "2026-05-02T22:25:20.545644Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "18.74.60.128",
+      "username": null,
+      "url": "2026-05-03 01:25:20 sshd: Connection from 18.74.60.128 port 61483",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:20.552506+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "18.74.60.128",
+    "username": null,
+    "event_time": "2026-05-02T22:25:20.552506Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "18.74.60.128",
+      "username": null,
+      "url": "2026-05-03 01:25:20 sshd: Connection from 18.74.60.128 port 61483",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:21.560974+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "2.123.85.2",
+    "username": "Developer_X",
+    "event_time": "2026-05-02T22:25:21.560974Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:21 EventID=4624 Login success User=Developer_X SRC=2.123.85.2",
+      "source_ip": "2.123.85.2",
+      "username": "Developer_X"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:21.578951+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "2.123.85.2",
+    "username": "Developer_X",
+    "event_time": "2026-05-02T22:25:21.578951Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:21 EventID=4624 Login success User=Developer_X SRC=2.123.85.2",
+      "source_ip": "2.123.85.2",
+      "username": "Developer_X"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:24.583471+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "158.250.134.220",
+    "username": null,
+    "event_time": "2026-05-02T22:25:24.583467Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "158.250.134.220",
+      "username": null,
+      "url": "2026-05-03 01:25:24 MySQL: Failed login for 'root'@'158.250.134.220'",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:24.600238+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "158.250.134.220",
+    "username": null,
+    "event_time": "2026-05-02T22:25:24.600238Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "158.250.134.220",
+      "username": null,
+      "url": "2026-05-03 01:25:24 MySQL: Failed login for 'root'@'158.250.134.220'",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:25.620776+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "123.52.30.77",
+    "username": null,
+    "event_time": "2026-05-02T22:25:25.620776Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "123.52.30.77",
+      "username": null,
+      "url": "2026-05-03 01:25:25 sshd: Connection from 123.52.30.77 port 19984",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:25.629154+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "123.52.30.77",
+    "username": null,
+    "event_time": "2026-05-02T22:25:25.629154Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "123.52.30.77",
+      "username": null,
+      "url": "2026-05-03 01:25:25 sshd: Connection from 123.52.30.77 port 19984",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:26.641162+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "159.66.16.45",
+    "username": "Mike",
+    "event_time": "2026-05-02T22:25:26.641162Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:26 EventID=4624 Login success User=Mike SRC=159.66.16.45",
+      "source_ip": "159.66.16.45",
+      "username": "Mike"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:26.659498+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "159.66.16.45",
+    "username": "Mike",
+    "event_time": "2026-05-02T22:25:26.659498Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:26 EventID=4624 Login success User=Mike SRC=159.66.16.45",
+      "source_ip": "159.66.16.45",
+      "username": "Mike"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:28.672739+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "22.104.237.120",
+    "username": null,
+    "event_time": "2026-05-02T22:25:28.671770Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "22.104.237.120",
+      "username": null,
+      "url": "2026-05-03 01:25:28 Web: Path Traversal attempt: GET /../../etc/passwd from 22.104.237.120",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:28.680287+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "22.104.237.120",
+    "username": null,
+    "event_time": "2026-05-02T22:25:28.680287Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "22.104.237.120",
+      "username": null,
+      "url": "2026-05-03 01:25:28 Web: Path Traversal attempt: GET /../../etc/passwd from 22.104.237.120",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:29.693684+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": null,
+    "event_time": "2026-05-02T22:25:29.693684Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": null,
+      "url": "2026-05-03 01:25:29 System: Service 'Windows Update' started successfully.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:29.710408+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": null,
+    "event_time": "2026-05-02T22:25:29.710408Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": null,
+      "username": null,
+      "url": "2026-05-03 01:25:29 System: Service 'Windows Update' started successfully.",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:29.714811+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "142.123.30.195",
+    "username": null,
+    "event_time": "2026-05-02T22:25:29.714811Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "142.123.30.195",
+      "username": null,
+      "url": "2026-05-03 01:25:29 sshd: Failed password for root from 142.123.30.195",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:29.730426+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "142.123.30.195",
+    "username": null,
+    "event_time": "2026-05-02T22:25:29.730426Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "142.123.30.195",
+      "username": null,
+      "url": "2026-05-03 01:25:29 sshd: Failed password for root from 142.123.30.195",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:31.755271+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "133.8.240.16",
+    "username": null,
+    "event_time": "2026-05-02T22:25:31.755271Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "133.8.240.16",
+      "username": null,
+      "url": "2026-05-03 01:25:31 Web: Path Traversal attempt: GET /../../etc/passwd from 133.8.240.16",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:31.766054+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "133.8.240.16",
+    "username": null,
+    "event_time": "2026-05-02T22:25:31.766054Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "133.8.240.16",
+      "username": null,
+      "url": "2026-05-03 01:25:31 Web: Path Traversal attempt: GET /../../etc/passwd from 133.8.240.16",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:32.794776+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Ahmed",
+    "event_time": "2026-05-02T22:25:32.794776Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4672,
+      "task_category": "2026-05-03 01:25:32 EventID=4672 Special privileges assigned User=Ahmed",
+      "source_ip": null,
+      "username": "Ahmed"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:33.830081+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "159.181.34.63",
+    "username": null,
+    "event_time": "2026-05-02T22:25:33.830081Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "159.181.34.63",
+      "username": null,
+      "url": "2026-05-03 01:25:33 Nginx - 159.181.34.63 - [GET /assets/logo.png HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:33.839401+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "159.181.34.63",
+    "username": null,
+    "event_time": "2026-05-02T22:25:33.839401Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "159.181.34.63",
+      "username": null,
+      "url": "2026-05-03 01:25:33 Nginx - 159.181.34.63 - [GET /assets/logo.png HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:34.863690+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "123.157.128.68",
+    "username": null,
+    "event_time": "2026-05-02T22:25:34.863690Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "123.157.128.68",
+      "username": null,
+      "url": "2026-05-03 01:25:34 MySQL: Failed login for 'root'@'123.157.128.68'",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:34.872701+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "123.157.128.68",
+    "username": null,
+    "event_time": "2026-05-02T22:25:34.872701Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "123.157.128.68",
+      "username": null,
+      "url": "2026-05-03 01:25:34 MySQL: Failed login for 'root'@'123.157.128.68'",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:37.904719+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "206.40.217.50",
+    "username": null,
+    "event_time": "2026-05-02T22:25:37.904719Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 5140,
+      "task_category": "2026-05-03 01:25:37 EventID=5140 A network share object was accessed Share=\\\\*\\IPC$ SRC=206.40.217.50",
+      "source_ip": "206.40.217.50",
+      "username": null
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:37.908842+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "206.40.217.50",
+    "username": null,
+    "event_time": "2026-05-02T22:25:37.908842Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 5140,
+      "task_category": "2026-05-03 01:25:37 EventID=5140 A network share object was accessed Share=\\\\*\\IPC$ SRC=206.40.217.50",
+      "source_ip": "206.40.217.50",
+      "username": null
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:38.933443+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "56.61.197.174",
+    "username": null,
+    "event_time": "2026-05-02T22:25:38.933443Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "56.61.197.174",
+      "username": null,
+      "url": "2026-05-03 01:25:38 sshd: Failed password for root from 56.61.197.174",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:38.939745+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "56.61.197.174",
+    "username": null,
+    "event_time": "2026-05-02T22:25:38.939745Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "56.61.197.174",
+      "username": null,
+      "url": "2026-05-03 01:25:38 sshd: Failed password for root from 56.61.197.174",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:38.975336+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "133.133.222.45",
+    "username": null,
+    "event_time": "2026-05-02T22:25:38.975336Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "133.133.222.45",
+      "username": null,
+      "url": "2026-05-03 01:25:38 sshd: Connection from 133.133.222.45 port 53755",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:38.986695+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "133.133.222.45",
+    "username": null,
+    "event_time": "2026-05-02T22:25:38.986695Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "133.133.222.45",
+      "username": null,
+      "url": "2026-05-03 01:25:38 sshd: Connection from 133.133.222.45 port 53755",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:39.990123+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "254.42.207.162",
+    "username": null,
+    "event_time": "2026-05-02T22:25:39.990123Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "254.42.207.162",
+      "username": null,
+      "url": "2026-05-03 01:25:39 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 254.42.207.162",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:40.021765+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "254.42.207.162",
+    "username": null,
+    "event_time": "2026-05-02T22:25:40.021765Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "254.42.207.162",
+      "username": null,
+      "url": "2026-05-03 01:25:39 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 254.42.207.162",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:40.025479+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "104.107.151.232",
+    "username": null,
+    "event_time": "2026-05-02T22:25:40.025479Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "104.107.151.232",
+      "username": null,
+      "url": "2026-05-03 01:25:39 sshd: Connection from 104.107.151.232 port 23022",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:40.049118+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "104.107.151.232",
+    "username": null,
+    "event_time": "2026-05-02T22:25:40.049118Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "104.107.151.232",
+      "username": null,
+      "url": "2026-05-03 01:25:39 sshd: Connection from 104.107.151.232 port 23022",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:42.047864+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "163.181.233.246",
+    "username": null,
+    "event_time": "2026-05-02T22:25:42.047864Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "163.181.233.246",
+      "username": null,
+      "url": "2026-05-03 01:25:41 Web: Path Traversal attempt: GET /../../etc/passwd from 163.181.233.246",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:42.072186+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "163.181.233.246",
+    "username": null,
+    "event_time": "2026-05-02T22:25:42.072186Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "163.181.233.246",
+      "username": null,
+      "url": "2026-05-03 01:25:41 Web: Path Traversal attempt: GET /../../etc/passwd from 163.181.233.246",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:44.092361+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "201.3.46.64",
+    "username": null,
+    "event_time": "2026-05-02T22:25:44.092361Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "201.3.46.64",
+      "username": null,
+      "url": "2026-05-03 01:25:43 sshd: Connection from 201.3.46.64 port 44976",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:44.105015+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "201.3.46.64",
+    "username": null,
+    "event_time": "2026-05-02T22:25:44.105015Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "201.3.46.64",
+      "username": null,
+      "url": "2026-05-03 01:25:43 sshd: Connection from 201.3.46.64 port 44976",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:44.128578+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "117.171.53.251",
+    "username": "Cron",
+    "event_time": "2026-05-02T22:25:44.128560Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:43 EventID=4624 Login success User=Cron SRC=117.171.53.251",
+      "source_ip": "117.171.53.251",
+      "username": "Cron"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:44.151011+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "System",
+    "event_time": "2026-05-02T22:25:44.151011Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:44 EventID=4634 Logoff User=System",
+      "source_ip": null,
+      "username": "System"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:44.163105+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "System",
+    "event_time": "2026-05-02T22:25:44.163105Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:44 EventID=4634 Logoff User=System",
+      "source_ip": null,
+      "username": "System"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:45.174452+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "122.255.214.127",
+    "username": null,
+    "event_time": "2026-05-02T22:25:45.174452Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "122.255.214.127",
+      "username": null,
+      "url": "2026-05-03 01:25:45 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 122.255.214.127",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:45.203603+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "SQL Injection",
+    "attack_name": "Web SQL Injection",
+    "source_ip": "122.255.214.127",
+    "username": null,
+    "event_time": "2026-05-02T22:25:45.203603Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "122.255.214.127",
+      "username": null,
+      "url": "2026-05-03 01:25:45 MySQL: Suspicious command detected: 'DROP TABLE users; --' from 122.255.214.127",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:47.215329+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "Cross-Site Scripting (XSS)",
+    "attack_name": "Web Cross-Site Scripting (XSS)",
+    "source_ip": "249.122.129.144",
+    "username": null,
+    "event_time": "2026-05-02T22:25:47.215329Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "249.122.129.144",
+      "username": null,
+      "url": "2026-05-03 01:25:47 Web: XSS attempt detected: GET /search?q=<script>alert(1)</script> from 249.122.129.144",
+      "query": "q=<script>alert(1)</script> from 249.122.129.144",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:47.233575+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 78.0,
+    "threat_level": "high",
+    "attack_type": "Cross-Site Scripting (XSS)",
+    "attack_name": "Web Cross-Site Scripting (XSS)",
+    "source_ip": "249.122.129.144",
+    "username": null,
+    "event_time": "2026-05-02T22:25:47.233575Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "249.122.129.144",
+      "username": null,
+      "url": "2026-05-03 01:25:47 Web: XSS attempt detected: GET /search?q=<script>alert(1)</script> from 249.122.129.144",
+      "query": "q=<script>alert(1)</script> from 249.122.129.144",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:48.255326+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "135.155.135.46",
+    "username": null,
+    "event_time": "2026-05-02T22:25:48.255326Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "135.155.135.46",
+      "username": null,
+      "url": "2026-05-03 01:25:48 Web: Path Traversal attempt: GET /../../etc/passwd from 135.155.135.46",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:48.257871+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "135.155.135.46",
+    "username": null,
+    "event_time": "2026-05-02T22:25:48.257871Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "135.155.135.46",
+      "username": null,
+      "url": "2026-05-03 01:25:48 Web: Path Traversal attempt: GET /../../etc/passwd from 135.155.135.46",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:51.290954+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "192.168.168.205",
+    "username": null,
+    "event_time": "2026-05-02T22:25:51.290954Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "192.168.168.205",
+      "username": null,
+      "url": "2026-05-03 01:25:51 Nginx - 192.168.168.205 - [GET /assets/logo.png HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:51.324980+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Administrator",
+    "event_time": "2026-05-02T22:25:51.324980Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 1102,
+      "task_category": "2026-05-03 01:25:51 EventID=1102 The audit log was cleared User=Administrator",
+      "source_ip": null,
+      "username": "Administrator"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:51.335813+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Administrator",
+    "event_time": "2026-05-02T22:25:51.335813Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 1102,
+      "task_category": "2026-05-03 01:25:51 EventID=1102 The audit log was cleared User=Administrator",
+      "source_ip": null,
+      "username": "Administrator"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:52.347474+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "119.198.83.196",
+    "username": null,
+    "event_time": "2026-05-02T22:25:52.347474Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "119.198.83.196",
+      "username": null,
+      "url": "2026-05-03 01:25:52 sshd: Accepted publickey for Sarah from 119.198.83.196",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:53.380530+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Ahmed",
+    "event_time": "2026-05-02T22:25:53.380530Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:53 EventID=4634 Logoff User=Ahmed",
+      "source_ip": null,
+      "username": "Ahmed"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:53.392210+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Ahmed",
+    "event_time": "2026-05-02T22:25:53.391237Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:25:53 EventID=4634 Logoff User=Ahmed",
+      "source_ip": null,
+      "username": "Ahmed"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:53.406810+00:00",
+    "source_type": "web",
+    "prediction": "anomaly",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 65.0,
+    "threat_level": "high",
+    "attack_type": "Path Traversal",
+    "attack_name": "Web Path Traversal",
+    "source_ip": "114.48.221.233",
+    "username": null,
+    "event_time": "2026-05-02T22:25:53.406810Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "114.48.221.233",
+      "username": null,
+      "url": "2026-05-03 01:25:53 Web: Path Traversal attempt: GET /../../etc/passwd from 114.48.221.233",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:56.437692+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "208.180.229.55",
+    "username": null,
+    "event_time": "2026-05-02T22:25:56.437692Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "208.180.229.55",
+      "username": null,
+      "url": "2026-05-03 01:25:56 sshd: Accepted publickey for Developer_X from 208.180.229.55",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:56.446944+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "208.180.229.55",
+    "username": null,
+    "event_time": "2026-05-02T22:25:56.446944Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "208.180.229.55",
+      "username": null,
+      "url": "2026-05-03 01:25:56 sshd: Accepted publickey for Developer_X from 208.180.229.55",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:56.468559+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "20.156.38.64",
+    "username": "test",
+    "event_time": "2026-05-02T22:25:56.468559Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "20.156.38.64",
+      "username": "test",
+      "url": "2026-05-03 01:25:56 sshd: Failed password for invalid user test from 20.156.38.64",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:56.478921+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "20.156.38.64",
+    "username": "test",
+    "event_time": "2026-05-02T22:25:56.478921Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "20.156.38.64",
+      "username": "test",
+      "url": "2026-05-03 01:25:56 sshd: Failed password for invalid user test from 20.156.38.64",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:57.490336+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "95.189.188.101",
+    "username": null,
+    "event_time": "2026-05-02T22:25:57.490336Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "95.189.188.101",
+      "username": null,
+      "url": "2026-05-03 01:25:57 sshd: Failed password for root from 95.189.188.101",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:57.509502+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "95.189.188.101",
+    "username": null,
+    "event_time": "2026-05-02T22:25:57.509502Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "95.189.188.101",
+      "username": null,
+      "url": "2026-05-03 01:25:57 sshd: Failed password for root from 95.189.188.101",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:57.514368+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "240.241.135.10",
+    "username": "Cron",
+    "event_time": "2026-05-02T22:25:57.514368Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:57 EventID=4624 Login success User=Cron SRC=240.241.135.10",
+      "source_ip": "240.241.135.10",
+      "username": "Cron"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:57.541621+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "240.241.135.10",
+    "username": "Cron",
+    "event_time": "2026-05-02T22:25:57.541621Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4624,
+      "task_category": "2026-05-03 01:25:57 EventID=4624 Login success User=Cron SRC=240.241.135.10",
+      "source_ip": "240.241.135.10",
+      "username": "Cron"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:58.531400+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "128.71.193.68",
+    "username": null,
+    "event_time": "2026-05-02T22:25:58.530427Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "128.71.193.68",
+      "username": null,
+      "url": "2026-05-03 01:25:58 sshd: Connection from 128.71.193.68 port 65376",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:58.567378+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "128.71.193.68",
+    "username": null,
+    "event_time": "2026-05-02T22:25:58.567378Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "128.71.193.68",
+      "username": null,
+      "url": "2026-05-03 01:25:58 sshd: Connection from 128.71.193.68 port 65376",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:59.559206+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "60.224.134.143",
+    "username": null,
+    "event_time": "2026-05-02T22:25:59.559206Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "60.224.134.143",
+      "username": null,
+      "url": "2026-05-03 01:25:59 Apache - 60.224.134.143 - [GET /index.php HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:25:59.588013+00:00",
+    "source_type": "web",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": "60.224.134.143",
+    "username": null,
+    "event_time": "2026-05-02T22:25:59.588013Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Inspect the endpoint and validate/sanitize input.",
+        "Review web server logs and block the source IP if needed.",
+        "Investigate recent suspicious requests."
+      ]
+    ],
+    "raw_context": {
+      "source_ip": "60.224.134.143",
+      "username": null,
+      "url": "2026-05-03 01:25:59 Apache - 60.224.134.143 - [GET /index.php HTTP/1.1] 200 OK",
+      "query": "",
+      "body": ""
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:26:00.604259+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Employee_01",
+    "event_time": "2026-05-02T22:26:00.604259Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:26:00 EventID=4634 Logoff User=Employee_01",
+      "source_ip": null,
+      "username": "Employee_01"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:26:03.651327+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "SYSTEM",
+    "event_time": "2026-05-02T22:26:03.651327Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4688,
+      "task_category": "2026-05-03 01:26:03 EventID=4688 A new process has been created Process=mimikatz.exe User=SYSTEM",
+      "source_ip": null,
+      "username": "SYSTEM"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:26:03.660145+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "SYSTEM",
+    "event_time": "2026-05-02T22:26:03.660145Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4688,
+      "task_category": "2026-05-03 01:26:03 EventID=4688 A new process has been created Process=mimikatz.exe User=SYSTEM",
+      "source_ip": null,
+      "username": "SYSTEM"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:26:04.684793+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Mike",
+    "event_time": "2026-05-02T22:26:04.684793Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:26:04 EventID=4634 Logoff User=Mike",
+      "source_ip": null,
+      "username": "Mike"
+    }
+  },
+  {
+    "generated_at": "2026-05-02T22:26:04.704200+00:00",
+    "source_type": "windows",
+    "prediction": "normal",
+    "anomaly_score": null,
+    "threshold": null,
+    "threat_score": 15.0,
+    "threat_level": "low",
+    "attack_type": "Normal Activity",
+    "attack_name": "Normal Activity",
+    "source_ip": null,
+    "username": "Mike",
+    "event_time": "2026-05-02T22:26:04.704200Z",
+    "host": null,
+    "recommended_actions": [
+      [
+        "Review the affected host and recent Windows security events around the same time.",
+        "Verify whether the action was authorized.",
+        "Escalate to the security team if repeated."
+      ]
+    ],
+    "raw_context": {
+      "event_id": 4634,
+      "task_category": "2026-05-03 01:26:04 EventID=4634 Logoff User=Mike",
+      "source_ip": null,
+      "username": "Mike"
+    }
+  }
+]

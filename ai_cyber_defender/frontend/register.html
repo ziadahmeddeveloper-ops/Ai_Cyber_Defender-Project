@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - AI Cyber Defender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="auth-container">
+    <div class="wave-bg"></div>
+
+    <div class="glass-card auth-card">
+        <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+            <i class="fa-solid fa-shield-halved" style="color: var(--accent);"></i>
+            AI CYBER DEFENDER
+        </div>
+        
+        <h3 style="margin-bottom: 2rem; font-family: 'Outfit';">Create Account</h3>
+        
+        <form id="registerForm">
+            <div class="auth-input-group">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="regUsername" class="auth-input" placeholder="Full Name" required>
+            </div>
+            <div class="auth-input-group">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="regEmail" class="auth-input" placeholder="Email Address" required>
+            </div>
+            <div class="auth-input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="regPassword" class="auth-input" placeholder="Password" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1.2rem; margin-top: 1rem;">REGISTER NOW</button>
+        </form>
+
+
+
+        <p style="margin-top: 2rem; color: var(--text-secondary); font-size: 0.9rem;">
+            Already have an account? <a href="login.html" style="color: white; text-decoration: none; font-weight: 700;">Login</a>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const username = document.getElementById('regUsername').value;
+            const email = document.getElementById('regEmail').value;
+            const password = document.getElementById('regPassword').value;
+            
+            const res = await fetch('../api/register.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username, email, password })
+            });
+            const data = await res.json();
+            if (res.ok) {
+                alert('Registration successful! Please login.');
+                window.location.href = 'login.html';
+            } else {
+                alert(data.message);
+            }
+        });
+    </script>
+</body>
+</html>

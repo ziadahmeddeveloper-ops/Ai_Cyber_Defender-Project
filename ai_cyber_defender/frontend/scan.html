@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanner - AI Cyber Defender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-shield-halved" style="color: var(--accent);"></i>
+                AI CYBER DEFENDER
+            </div>
+            
+            <a href="index.html" class="menu-item"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="dashboard.html" class="menu-item"><i class="fa-solid fa-chart-pie"></i> Dashboard</a>
+            <a href="scan.html" class="menu-item active"><i class="fa-solid fa-expand"></i> AI Scanner</a>
+            <a href="reports.html" class="menu-item"><i class="fa-solid fa-chart-bar"></i> Security Reports</a>
+            <a href="profile.html" class="menu-item"><i class="fa-regular fa-user"></i> User Profile</a>
+            
+            <div style="margin-top: auto; padding: 2rem;">
+                <button class="btn btn-outline" style="width: 100%;" onclick="logout()">LOGOUT</button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header style="margin-bottom: 3rem;">
+                <h1 style="font-size: 2.2rem; font-weight: 800;">AI SECURITY SCANNER</h1>
+                <p style="color: var(--text-secondary);">Analyze URLs or system logs for malicious patterns using AI.</p>
+            </header>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+                <!-- URL Scan Card -->
+                <div class="glass-card">
+                    <h3 style="margin-bottom: 1.5rem;"><i class="fa-solid fa-link" style="color: var(--accent); margin-right: 10px;"></i> URL Scanner</h3>
+                    <input type="text" id="urlInput" class="scan-input" placeholder="Enter URL (e.g., https://example.com)">
+                    <button class="btn btn-primary" style="width: 100%;" onclick="performScan('url', this)">ANALYZE URL</button>
+                </div>
+
+                <!-- Log Scan Card -->
+                <div class="glass-card">
+                    <h3 style="margin-bottom: 1.5rem;"><i class="fa-solid fa-file-lines" style="color: var(--accent); margin-right: 10px;"></i> Log Analyzer</h3>
+                    <textarea id="logInput" class="scan-input" style="height: 55px; resize: none;" placeholder="Paste system logs or event strings..."></textarea>
+                    <button class="btn btn-primary" style="width: 100%;" onclick="performScan('log', this)">ANALYZE LOGS</button>
+                </div>
+            </div>
+
+            <!-- Results Output -->
+            <div id="scanResult" class="glass-card" style="display: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                    <h3>Analysis Results</h3>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>TARGET</th>
+                            <th>TYPE</th>
+                            <th>PREDICTION</th>
+                            <th>SCORE</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultTableBody"></tbody>
+                </table>
+            </div>
+
+            <!-- Details Modal -->
+            <div id="detailsModal" class="modal-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 2000; align-items: center; justify-content: center; backdrop-filter: blur(10px);">
+                <div class="glass-card" style="width: 90%; max-width: 800px; max-height: 90vh; overflow-y: auto; position: relative; padding: 3rem;">
+                    <button onclick="closeModal()" style="position: absolute; top: 1.5rem; right: 1.5rem; background: transparent; border: none; color: white; font-size: 1.5rem; cursor: pointer;"><i class="fa-solid fa-xmark"></i></button>
+                    <div id="modalContent"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

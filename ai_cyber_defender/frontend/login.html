@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AI Cyber Defender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="auth-container">
+    <div class="wave-bg"></div>
+
+    <div class="glass-card auth-card">
+        <div class="logo" style="justify-content: center; margin-bottom: 2rem;">
+            <i class="fa-solid fa-shield-halved" style="color: var(--accent);"></i>
+            AI CYBER DEFENDER
+        </div>
+        
+        <form id="loginForm">
+            <div class="auth-input-group">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="loginEmail" class="auth-input" placeholder="Enter Your Email" required>
+            </div>
+            <div class="auth-input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="loginPassword" class="auth-input" placeholder="Password" required>
+            </div>
+            
+            <div style="text-align: left; margin-bottom: 2rem;">
+                <a href="#" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem;">Forgot Password?</a>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1.2rem;">LOGIN</button>
+        </form>
+
+
+
+        <p style="margin-top: 2rem; color: var(--text-secondary); font-size: 0.9rem;">
+            Don't have an account? <a href="register.html" style="color: white; text-decoration: none; font-weight: 700;">Register</a>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cyber Defender - Advanced Protection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="wave-bg"></div>
+
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 2rem 8%; position: fixed; width: 100%; z-index: 1000; background: rgba(6, 11, 24, 0.9); backdrop-filter: blur(15px); border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <div class="logo" style="padding: 0;">
+            <i class="fa-solid fa-shield-halved" style="color: var(--accent);"></i>
+            AI CYBER DEFENDER
+        </div>
+        <ul class="nav-links" style="display: flex; gap: 2.5rem; list-style: none;">
+            <li><a href="index.html" class="active" style="color: white; text-decoration: none; font-weight: 600; font-family: 'Outfit';">HOME</a></li>
+            <li><a href="dashboard.html" style="color: var(--text-secondary); text-decoration: none; font-weight: 600; font-family: 'Outfit';">DASHBOARD</a></li>
+            <li><a href="scan.html" style="color: var(--text-secondary); text-decoration: none; font-weight: 600; font-family: 'Outfit';">SCANNER</a></li>
+            <li><a href="reports.html" style="color: var(--text-secondary); text-decoration: none; font-weight: 600; font-family: 'Outfit';">REPORTS</a></li>
+        </ul>
+        <div class="nav-actions" id="navActions">
+            <a href="login.html" class="btn btn-outline" style="padding: 0.6rem 1.8rem; margin-right: 1rem; font-size: 0.8rem;">LOGIN</a>
+            <a href="register.html" class="btn btn-primary" style="padding: 0.6rem 1.8rem; font-size: 0.8rem;">JOIN NOW</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="min-height: 100vh; display: flex; align-items: center; padding-top: 100px;">
+        <div class="hero-content" style="flex: 1;">
+            <div style="color: var(--accent); font-weight: 700; letter-spacing: 3px; margin-bottom: 1.5rem; font-family: 'Outfit';">AI-POWERED SECURITY</div>
+            <h1 style="font-size: 5.5rem; line-height: 1; font-weight: 800; margin-bottom: 2rem; letter-spacing: -2px;">FORTIFY YOUR <br><span style="color: var(--accent);">DIGITAL WORLD</span></h1>
+            <p style="font-size: 1.2rem; color: var(--text-secondary); max-width: 550px; margin-bottom: 3.5rem; line-height: 1.8;">The next generation of cyber defense. Automated vulnerability detection and real-time threat intelligence powered by advanced machine learning.</p>
+            <div style="display: flex; gap: 1.5rem;">
+                <a href="scan.html" class="btn btn-primary" style="padding: 1.3rem 3.5rem;">SCAN FOR FREE</a>
+                <a href="#about" class="btn btn-outline" style="padding: 1.3rem 3.5rem;">EXPLORE MORE</a>
+            </div>
+        </div>
+        <div class="hero-image" style="flex: 1; text-align: right;">
+            <img src="assets/hero.png" alt="Cyber Shield" style="max-width: 650px; filter: drop-shadow(0 0 80px var(--accent-glow));">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="display: flex; align-items: center; gap: 6rem; background: rgba(0,0,0,0.3);">
+        <div style="flex: 1;">
+            <img src="assets/about.png" alt="About AI Cyber" style="width: 100%; border-radius: 20px; box-shadow: 0 30px 60px rgba(0,0,0,0.6);">
+        </div>
+        <div style="flex: 1;">
+            <div style="color: var(--accent); font-weight: 700; margin-bottom: 1.5rem; font-family: 'Outfit'; text-transform: uppercase; letter-spacing: 2px;">WHO WE ARE</div>
+            <h2 style="font-size: 3.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 2rem;">Empowering Your Digital Security With Intelligent Defense</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2.5rem; font-size: 1.1rem;">AI Cyber Defender provides a robust, automated security layer for your applications and logs. Our mission is to democratize high-end security tools for everyone.</p>
+            <a href="scan.html" class="btn btn-primary" style="padding: 1rem 3rem;">TRY SCANNER</a>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service" style="padding-bottom: 4rem;">
+        <div class="section-title">
+            <div style="color: var(--accent); font-weight: 700; margin-bottom: 1rem; font-family: 'Outfit'; text-transform: uppercase; letter-spacing: 2px;">OUR SERVICES</div>
+            <h2 style="font-size: 3.5rem;">Smart Automated Protection <br>For Your Digital Environment</h2>
+        </div>
+        <div class="features-grid">
+            <div class="glass-card feature-box" style="border-bottom: 4px solid var(--accent);">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3 style="margin-bottom: 1.2rem; font-size: 1.4rem;">Cyber Security Assessment</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Deep AI analysis of URLs and domains to identify malware, phishing, and reputation risks instantly.</p>
+            </div>
+            <div class="glass-card feature-box" style="border-bottom: 4px solid var(--accent);">
+                <div class="feature-icon"><i class="fa-solid fa-microchip"></i></div>
+                <h3 style="margin-bottom: 1.2rem; font-size: 1.4rem;">Intrusion Detection</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Automated log behavioral analysis to detect anomalies, brute force, and unauthorized system access.</p>
+            </div>
+            <div class="glass-card feature-box" style="border-bottom: 4px solid var(--accent);">
+                <div class="feature-icon"><i class="fa-solid fa-rotate"></i></div>
+                <h3 style="margin-bottom: 1.2rem; font-size: 1.4rem;">Incident Response</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">Get actionable recommendations and threat scores to prioritize your security team's efforts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" style="display: flex; gap: 6rem; background: rgba(0,0,0,0.3); align-items: center;">
+        <div style="flex: 1;">
+            <img src="assets/features.png" alt="Features Illustration" style="width: 100%; filter: drop-shadow(0 0 40px var(--accent-glow));">
+        </div>
+        <div style="flex: 1.2;">
+            <div style="color: var(--accent); font-weight: 700; margin-bottom: 1.5rem; font-family: 'Outfit'; text-transform: uppercase; letter-spacing: 2px;">CORE FEATURES</div>
+            <h2 style="font-size: 3.5rem; font-weight: 800; margin-bottom: 3rem; line-height: 1.1;">Key Platform Features Securing Your System</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                <div class="glass-card" style="padding: 1.8rem; border: 1px solid rgba(255,255,255,0.1);">
+                    <i class="fa-solid fa-chart-line" style="color: var(--accent); font-size: 2rem; margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 8px; font-size: 1.2rem;">Real-Time Monitoring</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">Live stream of security events and instant threat alerts.</p>
+                </div>
+                <div class="glass-card" style="padding: 1.8rem; border: 1px solid rgba(255,255,255,0.1);">
+                    <i class="fa-solid fa-desktop" style="color: var(--accent); font-size: 2rem; margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 8px; font-size: 1.2rem;">Interactive Dashboard</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">Comprehensive visualization of your security posture.</p>
+                </div>
+                <div class="glass-card" style="padding: 1.8rem; border: 1px solid rgba(255,255,255,0.1);">
+                    <i class="fa-solid fa-file-pdf" style="color: var(--accent); font-size: 2rem; margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 8px; font-size: 1.2rem;">Detailed Reporting</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">Generate and download security audit reports easily.</p>
+                </div>
+                <div class="glass-card" style="padding: 1.8rem; border: 1px solid rgba(255,255,255,0.1);">
+                    <i class="fa-solid fa-users" style="color: var(--accent); font-size: 2rem; margin-bottom: 1rem;"></i>
+                    <h4 style="margin-bottom: 8px; font-size: 1.2rem;">Multi-User Support</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">Secure access for teams with individual session tracking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section style="padding-bottom: 10rem;">
+        <div class="section-title">
+            <div style="color: var(--accent); font-weight: 700; margin-bottom: 1rem; font-family: 'Outfit'; text-transform: uppercase; letter-spacing: 2px;">VISION</div>
+            <h2 style="font-size: 3.5rem;">Securing Your Digital <br>World Together</h2>
+        </div>
+        
+        <div style="text-align: center; margin-bottom: 5rem;">
+            <img src="assets/vision.png" alt="Secure World" style="max-width: 800px; border-radius: 30px; box-shadow: 0 0 100px var(--accent-glow);">
+        </div>
+
+        <div class="features-grid">
+            <div class="glass-card" style="padding: 3rem; border: 2px solid var(--accent); background: rgba(0, 209, 255, 0.02);">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Mission Statement</h3>
+                <p style="color: var(--text-secondary); font-size: 1rem; line-height: 1.8;">To simplify cybersecurity by providing automated, intelligent vulnerability detection that helps organizations stay protected against evolving threats with zero friction.</p>
+            </div>
+            <div class="glass-card" style="padding: 3rem;">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Key Objectives</h3>
+                <ul style="color: var(--text-secondary); font-size: 1rem; padding-left: 1.2rem; line-height: 2;">
+                    <li>Automate vulnerability detection</li>
+                    <li>Identify and classify risk patterns</li>
+                    <li>Provide actionable remediation steps</li>
+                    <li>Enhance overall system resilience</li>
+                </ul>
+            </div>
+            <div class="glass-card" style="padding: 3rem;">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Client-Centric Approach</h3>
+                <p style="color: var(--text-secondary); font-size: 1rem; line-height: 1.8;">We deliver clear, human-readable reports and interactive dashboards that make security complex data easy to understand for everyone.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
